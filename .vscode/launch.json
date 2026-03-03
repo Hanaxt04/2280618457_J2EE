@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BaiTap2Application",
+            "request": "launch",
+            "mainClass": "com.example.BaiTap2.BaiTap2Application",
+            "projectName": "BaiTap2"
+        },
+        {
+            "type": "java",
+            "name": "Buoi2Application",
+            "request": "launch",
+            "mainClass": "com.example.Buoi2.Buoi2Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Buoi2Application<Buoi2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.Buoi2.Buoi2Application",
+            "projectName": "Buoi2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
